@@ -78,7 +78,6 @@ Não deixe de se aprofundar ainda mais lendo a [documentação oficial][doc-set]
 Até a próxima!
 \>}
 
-
 [wiki-set]: https://pt.wikipedia.org/wiki/Conjunto_(tipo_de_dado_abstrato)
 [doc-hashable]: https://developer.apple.com/documentation/swift/hashable
 [doc-set]: https://developer.apple.com/documentation/swift/set

@@ -1,10 +1,8 @@
-Comentários
-===
+# Comentários
 Neste post vamos explorar um pouco sobre comentários.
 Eles são importantes para documentar o código, porém não exagere na quantidade, preze pela qualidade e necessidade. Quem for ler depois de você agradecerá. 😀
 
-Como funciona?
----
+## Como funciona?
 Na Swift temos duas maneiras de realizá-los:
 1. Em linha
 ```swift
@@ -25,8 +23,7 @@ let limite /* valor máximo */ = 100
 /* mas perdemos muita legibilidade dessa forma */
 ```
 
-Documentando seu código
----
+## Documentando seu código
 Além de utilizar os comentários ao longo de seu código para facilitar o entendimento, podemos usá-los para documentar classes e funções, inclusive o Xcode interpreta e exibe no balão de documentação[^fn-popup-doc].
 
 Para aproveitar dessa facilidade basta fazer os comentários com uma pequena modificação, usando três barras ou dois asteriscos:

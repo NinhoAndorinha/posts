@@ -1,11 +1,9 @@
-Alertas com UIAlertController
-===
+# Alertas com UIAlertController
 Existem diversas formas de alertar o usuário em um aplicativo iOS. Seja para comunicar um acontecimento, exibir um erro, obter uma informação ou decisão, etc. Muitas vezes a melhor -- e mais simples -- é utilizando o `UIAlertController`.
 
 O `UIAlertController` herda de `UIViewController` e **não** foi projetado para ser usado como subclasse, por isso sempre o utilize diretamente. Seu objetivo é exibir uma mensagem de alerta e dar ao usuário uma maneira de respondê-la. Está disponível a partir do iOS 8, onde veio para substituir o `UIAlertView` e o `UIActionSheet`, que ficaram obsoletos a partir desta versão.
 
-Criando um alerta
----
+## Criando um alerta
 Um alerta é composto por:
 - **Title**: Título utilizado para chamar a atenção e comunicar a razão do alerta.
 - **Message**: um texto descritivo do que aconteceu.   
@@ -20,8 +18,7 @@ let alerta = UIAlertController(
 // por .alert por causa da inferência de tipos da Swift.
 ```
 
-Configurando ações
----
+## Configurando ações
 As ações são a forma do usuário responder ao alerta e contém:
 - **Title**: Título a ser exibido no botão.
 - **Style**: estilização do botão[^fn-action-style].
@@ -33,15 +30,13 @@ let ok = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
 // executar nada quando o usuário selecionar esse botão.
 ```
 
-Adicionando ações
----
+## Adicionando ações
 Depois de criadas temos que adicioná-las ao botão. Se um alerta tiver múltiplas ações, elas serão exibidas na ordem que foram adicionadas.
 ```swift
 alerta.addAction(ok)
 ```
 
-Exibindo
----
+## Exibindo
 Depois de configurado, basta exibir o alerta através do método: [`present(_:animated:completion:)`][doc-present] do `UIViewController`. Aqui podemos escolher se irá ocorrer animação ou ainda executar alguma ação depois de exibir.
 ```swift
 present(alerta, animated: true, completion: nil)
@@ -49,8 +44,7 @@ present(alerta, animated: true, completion: nil)
 // e nenhuma ação depois de exibir - completion: nil
 ```
 
-Exemplo completo
----
+## Exemplo completo
 ```swift
 // criação
 let alerta = UIAlertController(

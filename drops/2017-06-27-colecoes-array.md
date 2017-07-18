@@ -1,11 +1,9 @@
-Coleções: Array
-===
+# Coleções: Array
 A Swift possui três tipos básicos de coleções: _Array_[^fn-array],  _Dictionary_[^fn-dictionary] e _Set_[^fn-set]. Cada qual com funcionamento e aplicação específica porém todos são [fortemente tipados][wiki-ft] e armazenam uma **coleção** de valores.
 
 O _Array_ -- também conhecido como [Arranjo ou Vetor][wiki-array] -- consiste em uma lista ordenada de valores do mesmo tipo, que podem ser acessados através de um índice.
 
-Criação
----
+## Criação
 ```swift
 // Quando criamos arrays diretamente por código podemos omitir o tipo dos elementos
 let animais = [ "Cachorro", "Gato" ]
@@ -23,8 +21,7 @@ var numerosFibonacci: [Int] = []
 // criamos usando `var`.
 ```
 
-Manipulação
----
+## Manipulação
 ```swift
 // Acessando valores por índice
 // - leitura
@@ -52,8 +49,7 @@ numerosDaSorte.remove(at: 3)  // no indice
 numerosDaSorte.removeAll()    // todos
 ```
 
-Algumas funcionalidades comuns
----
+## Algumas funcionalidades comuns
 ```swift
 // Total de elementos
 animais.count

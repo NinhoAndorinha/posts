@@ -1,3 +1,4 @@
+# Swift 4: Codable
 Uma das novidades do Swift 4 foi a introdução do [arquivamento e serialização][swift-evo] de tipos nativos, com isso podemos salvar nossos tipos criados na Swift com `NSCoding` por exemplo. Porém a melhor parte é que também podemos utilizar o `NSPropertyListSerialization` e o `NSJSONSerialization` para transformar em **Property List** e **JSON** respectivamente.
 
 Suponha que nosso modelo de dados é uma `struct` que representa uma temperatura, composta por valor e escala:
@@ -28,8 +29,7 @@ let previsao = [
 ]
 ```
 
-Encoding
----
+## Encoding
 Agora que temos nosso modelo conformando com o protocolo `Codable` podemos transformá-lo em algum formato para armazenar em disco ou enviar à um servidor.
 
 Uma das maneiras de armazenar em disco é com **Property List** e para isso usaremos o `PropertyListEncoder`:
@@ -108,8 +108,7 @@ Resultado:
 }]
 ```
 
-Decoding
----
+## Decoding
 Metade do trabalho já foi feito, transformamos tipos nativos para **plist** e **JSON**, agora vamos fazer o contrário. Isso vai facilitar muito a comunicação entre servidor e aplicativo, tornando o código mais simples e mais seguro. Para realizar a decodificação o _decoder_ precisa saber qual o tipo que deve tentar transformar, nesse caso `[Temperatura].self`, que representa uma lista de `Temperatura`s.
 
 Para isso é só utilizar `PropertyListDecoder`:
@@ -124,8 +123,7 @@ let jsonDecoder = JSONDecoder()
 let jsonDecoded = try jsonDecoder.decode([Temperatura].self, from: jsonData)
 ```
 
-Exemplo Completo
----
+## Exemplo Completo
 ```swift
 //: Swift 4: Codable
 //: ===

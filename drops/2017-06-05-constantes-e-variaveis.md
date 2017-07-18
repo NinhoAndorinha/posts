@@ -1,18 +1,15 @@
-Constantes e Variáveis
-===
+# Constantes e Variáveis
 Constantes e variáveis são formas de associar um nome a um valor, seja para armazenamento temporário, manipulação, operações, etc. São extremamente úteis para a programação e promovem um passo-a-passo no seu algoritmo.
 
 O maior cuidado que temos que ter com elas são os nomes escolhidos, pois eles garantem a legibilidade e compreensão posterior. Depois precisamos decidir qual utilizar: variável ou constante?
 
-Constantes
----
+## Constantes
 Como o próprio nome diz, uma vez atribuído um valor para uma constante, não podemos alterá-lo.
 ```swift
 let limiteJogadores = 10 // número máximo de jogadores por sala
 ```
 
-Variáveis
----
+## Variáveis
 Ao contrário das constantes, aqui podemos alterar o valor sempre que necessário. Nossa única preocupação será com o tipo do valor[^fn-tipos].
 ```swift
 var numeroJogadores = 0 // número atual de jogadores na sala
