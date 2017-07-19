@@ -105,10 +105,10 @@ Até a próxima!
 [inspector]: https://developer.apple.com/videos/play/wwdc2016/407/
 [doc-accessibility]: https://developer.apple.com/accessibility/
 
-[01-dyntype-ios]: /_img/tutoriais/2017-06-23-acessibilidade/01-dyntype-ios.png
-[02-dyntype-xcode]: /_img/tutoriais/2017-06-23-acessibilidade/02-dyntype-xcode.png
-[03-fontstyles]: /_img/tutoriais/2017-06-23-acessibilidade/03-fontstyles.png
-[04-fontstyles-custom]: /_img/tutoriais/2017-06-23-acessibilidade/04-fontstyles-custom.png
-[05-voiceover-sample-app]: /_img/tutoriais/2017-06-23-acessibilidade/05-voiceover-sample-app.png
-[06-xcode-accessibility]: /_img/tutoriais/2017-06-23-acessibilidade/06-xcode-accessibility.png
-[07-inspector]: /_img/tutoriais/2017-06-23-acessibilidade/07-inspector.png
+[01-dyntype-ios]: /img/tutoriais/2017/06/23/acessibilidade/01-dyntype-ios.png
+[02-dyntype-xcode]: /img/tutoriais/2017/06/23/acessibilidade/02-dyntype-xcode.png
+[03-fontstyles]: /img/tutoriais/2017/06/23/acessibilidade/03-fontstyles.png
+[04-fontstyles-custom]: /img/tutoriais/2017/06/23/acessibilidade/04-fontstyles-custom.png
+[05-voiceover-sample-app]: /img/tutoriais/2017/06/23/acessibilidade/05-voiceover-sample-app.png
+[06-xcode-accessibility]: /img/tutoriais/2017/06/23/acessibilidade/06-xcode-accessibility.png
+[07-inspector]: /img/tutoriais/2017/06/23/acessibilidade/07-inspector.png

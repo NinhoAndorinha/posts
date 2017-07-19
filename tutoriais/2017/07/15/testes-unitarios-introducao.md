@@ -225,8 +225,8 @@ Até a próxima!
 [link-doc]: https://developer.apple.com/documentation/xctest
 [link-wwdc]: https://developer.apple.com/videos/play/wwdc2017/414/
 
-[01-vmodel]: /_img/tutoriais/2017-07-15-testes-unitarios-introducao/01-vmodel.png
-[02-checkbox]: /_img/tutoriais/2017-07-15-testes-unitarios-introducao/02-checkbox.png
-[03-target]: /_img/tutoriais/2017-07-15-testes-unitarios-introducao/03-target.png
-[04-add-target]: /_img/tutoriais/2017-07-15-testes-unitarios-introducao/04-add-target.png
-[05-report]: /_img/tutoriais/2017-07-15-testes-unitarios-introducao/05-report.png
+[01-vmodel]: /img/tutoriais/2017/07/15/testes-unitarios-introducao/01-vmodel.png
+[02-checkbox]: /img/tutoriais/2017/07/15/testes-unitarios-introducao/02-checkbox.png
+[03-target]: /img/tutoriais/2017/07/15/testes-unitarios-introducao/03-target.png
+[04-add-target]: /img/tutoriais/2017/07/15/testes-unitarios-introducao/04-add-target.png
+[05-report]: /img/tutoriais/2017/07/15/testes-unitarios-introducao/05-report.png

@@ -89,4 +89,4 @@ Até a próxima! 🍻
 [wiki-pkg]: https://pt.wikipedia.org/wiki/Pacote_de_software
 [wiki-pm]: https://pt.wikipedia.org/wiki/Sistema_gestor_de_pacotes
 
-[01-terminal]: /_img/talk-is-cheap/2017-07-08-gerenciador-de-pacotes-homebrew/01-terminal.png
+[01-terminal]: /img/talk-is-cheap/2017/07/08/gerenciador-de-pacotes-homebrew/01-terminal.png
