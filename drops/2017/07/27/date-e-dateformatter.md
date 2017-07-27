@@ -99,7 +99,7 @@ let dataNascimento = formatador.date(from: nascimentoString)
 Usamos `pt_BR` neste exemplo, mas caso você queira utilizar outra localização dê uma olhada [nesta lista][locale-list].
 
 ## Guia de formatos
-Abaixo listamos os principais formatos usados na propriedade `dateFormat` para facilitar a sua vida 😉:
+O [nsdateformatter.com][link-nsdf] é um ótimo auxílio para ver e testar os formatos. Abaixo listamos os principais -- usados na propriedade `dateFormat` -- para facilitar a sua vida 😉:
 - **EEEE**: Representação do dia da semana (Ex: Segunda-feira);
 - **dd**: Representação do dia (Ex: 21);
 - **MMMM**: Representação escrita do mês (Ex: Janeiro);
@@ -122,3 +122,4 @@ Até a próxima 😁
 [doc-dateformatter]: https://developer.apple.com/documentation/foundation/dateformatter
 [doc-timeinterval]: https://developer.apple.com/documentation/foundation/timeinterval
 [locale-list]: https://gist.github.com/jacobbubu/1836273
+[link-nsdf]: http://nsdateformatter.com
