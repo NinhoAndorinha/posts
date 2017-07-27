@@ -3,6 +3,7 @@
 ## 2017
 
 ### Julho
+- [Date e DateFormatter](/drops/2017/07/27/date-e-dateformatter.md)
 - [Generics](/drops/2017/07/18/generics.md)
 - [Coleções: Set](/drops/2017/07/11/colecoes-set.md)
 - [Coleções: Dictionary](/drops/2017/07/04/colecoes-dictionary.md)
